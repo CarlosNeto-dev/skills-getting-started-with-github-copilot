@@ -1,7 +1,7 @@
 """
 High School Management System API
 
-A super simple FastAPI application that allows students to view and sign up
+A super simple FastAPI application that allows students to view1 and sign up
 for extracurricular activities at Mergington High School.
 """
 
@@ -38,6 +38,42 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Basketball Team": {
+        "description": "Practice team play and compete in interschool basketball games",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 18,
+        "participants": ["liam@mergington.edu", "noah@mergington.edu"]
+    },
+    "Swimming Club": {
+        "description": "Improve swimming techniques and participate in local meets",
+        "schedule": "Wednesdays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["ava@mergington.edu", "mia@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Develop acting skills and stage a variety of performances",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["lucas@mergington.edu", "sophia@mergington.edu"]
+    },
+    "Art Workshop": {
+        "description": "Explore drawing, painting, and mixed media art projects",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["isabella@mergington.edu", "mia@mergington.edu"]
+    },
+    "Debate Team": {
+        "description": "Build reasoning and public speaking skills through competitive debate",
+        "schedule": "Wednesdays, 4:30 PM - 6:00 PM",
+        "max_participants": 14,
+        "participants": ["ethan@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Math Olympiad Prep": {
+        "description": "Prepare for math competitions with challenging problem solving",
+        "schedule": "Fridays, 4:00 PM - 5:30 PM",
+        "max_participants": 12,
+        "participants": ["charlotte@mergington.edu", "noah@mergington.edu"]
     }
 }
 
